@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="19dp"
+                android:fontFamily="sans-serif"
+                android:text="Posto "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:typeface="normal" />
+
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txt"
+                android:layout_marginStart="23dp"
+                android:ems="10"
+                android:hint="Kompania"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/name"
+
+                android:layout_below="@+id/name"
+                android:layout_marginTop="21dp"
+                android:ems="10"
+                android:hint="Titulli"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/title"
+                android:layout_below="@+id/title"
+                android:layout_marginTop="18dp"
+                android:text="Pershkrimi"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txt3"
+                android:layout_below="@+id/txt3"
+                android:layout_marginTop="22dp"
+                android:background="@null"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:minLines="7"
+                android:scrollHorizontally="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbars="vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="320dp"
+                android:layout_height="55dp"
+                android:layout_alignStart="@+id/description"
+                android:layout_below="@+id/description"
+                android:layout_marginTop="23dp"
+                android:ems="10"
+                android:hint="Qyteti"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/location"
+                android:layout_below="@+id/location"
+                android:layout_marginTop="17dp"
+                android:text="Aftesit e nevojshme(perdor , per ti ndare)"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/skills"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txt5"
+                android:layout_below="@+id/txt5"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="320dp"
+                android:layout_height="55dp"
+                android:layout_alignStart="@+id/skills"
+                android:layout_below="@+id/skills"
+                android:layout_marginTop="25dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="Krijo"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_below="@+id/submit"
+
+                android:layout_height="20dp" />
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

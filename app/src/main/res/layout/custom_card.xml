@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/job_post"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:layout_gravity="center_horizontal"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_marginLeft="30dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Programues Php"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+
+            android:text="12/10/1992"
+            android:textColor="@color/eve_def"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/co_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="30dp"
+            android:background="#fff"
+            android:fontFamily="sans-serif"
+            android:text="Kompania X"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/code_img"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_below="@+id/co_name"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_code_black_24dp" />
+
+        <TextView
+            android:id="@+id/tags"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/co_name"
+            android:layout_toEndOf="@+id/code_img"
+            android:fontFamily="sans-serif"
+            android:text="html"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/loc"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/tags"
+            android:layout_toStartOf="@+id/location"
+            android:src="@drawable/location" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBottom="@+id/tags"
+            android:layout_alignEnd="@+id/date"
+            android:fontFamily="sans-serif"
+            android:text="Tirana"
+            android:textColor="#000" />
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

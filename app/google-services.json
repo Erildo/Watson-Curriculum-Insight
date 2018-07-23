@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "420208009665",
+    "firebase_url": "https://oraapplication-f9a55.firebaseio.com",
+    "project_id": "oraapplication-f9a55",
+    "storage_bucket": "oraapplication-f9a55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420208009665:android:ae370e2fe7eafe7c",
+        "android_client_info": {
+          "package_name": "com.example.dell.ora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420208009665-havamj3qk5gojlebcd0gjoa0rlkj2g0b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.ora",
+            "certificate_hash": "b18083f2c780a97d5d9a0f5cd5d127996a6503e4"
+          }
+        },
+        {
+          "client_id": "420208009665-8kukrlomfqc23dd6av5jl7nd9ochrv8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5_Rfj2xTmAzV89AwNuco2Yr3NYY7exBs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420208009665-8kukrlomfqc23dd6av5jl7nd9ochrv8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
