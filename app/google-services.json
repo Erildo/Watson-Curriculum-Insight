@@ -1,8 +1,8 @@
 {
   "project_info": {
     "project_number": "420208009665",
-    "firebase_url": "https://oraapplication-f9a55.firebaseio.com",
-    "project_id": "oraapplication-f9a55",
+    "firebase_url": "hidden_url",
+    "project_id": "hidden_project_url",
     "storage_bucket": "oraapplication-f9a55.appspot.com"
   },
   "client": [
@@ -10,12 +10,12 @@
       "client_info": {
         "mobilesdk_app_id": "1:420208009665:android:ae370e2fe7eafe7c",
         "android_client_info": {
-          "package_name": "com.example.dell.ora"
+          "package_name": "com.example.dell.hidden"
         }
       },
       "oauth_client": [
         {
-          "client_id": "420208009665-havamj3qk5gojlebcd0gjoa0rlkj2g0b.apps.googleusercontent.com",
+          "client_id": "hidden_client_id",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.dell.ora",
@@ -29,7 +29,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB5_Rfj2xTmAzV89AwNuco2Yr3NYY7exBs"
+          "current_key": "hidden_key"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "420208009665-8kukrlomfqc23dd6av5jl7nd9ochrv8p.apps.googleusercontent.com",
+              "client_id": "hidden_client_id",
               "client_type": 3
             }
           ]
